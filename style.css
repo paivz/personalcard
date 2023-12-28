@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Diphylleia&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    min-height: 100vh;
+    color: white;
+    background-image: url(https://r4.wallpaperflare.com/wallpaper/108/140/869/digital-digital-art-artwork-fantasy-art-drawing-hd-wallpaper-d8b62d28c0f06c48d03c114ec8f2b4aa.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+section {
+    width: 500px;
+    height: 550px;
+    border: 5px solid;
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+    background-color: transparent;
+    animation-name: border;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    backdrop-filter: blur(50px);
+}
+
+@keyframes border {
+    0% {border-color: white; left: 0px; top: 0px;}
+    25% {border-color: blueviolet; left: 200px; top: 0px;}
+    50% {border-color: white; left: 200px; top: 200px;}
+    75% {border-color: blueviolet; left: 0px; top: 200px;}
+    100% {border-color: white; left: 0px; top: 0px;}
+
+}
+
+h1 {
+    color: white;
+    font-family: diphylleia;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    transition-duration: 0.4s;
+}
+
+a:hover {
+    color: blueviolet;
+}
+
+.socialmedia {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 80px;
+    font-size: 25px;
+}
+
+.about{
+    display: flex;
+    text-align: justify;
+    padding: 0px 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h3 {
+    padding-top: 15px;
+    font-family: diphylleia;
+    text-transform: uppercase;
+}
+
+.languages {
+    width: 440px;
+    height: 195px;
+    background: white;
+    border-radius: 20px;
+    margin: 15px;
+    transition: width 2s;
+    color: blueviolet;
+    font-size: 50px;
+    padding: 10px 0px;
+    animation-name: border2;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    border: 5px solid white;
+}
+
+.languages:hover {
+    width: 220px;
+}
+
+@keyframes border2 {
+    0% {border-color: white; left: 0px; top: 0px;}
+    25% {border-color: blueviolet; left: 200px; top: 0px;}
+    50% {border-color: white; left: 200px; top: 200px;}
+    75% {border-color: blueviolet; left: 0px; top: 200px;}
+    100% {border-color: white; left: 0px; top: 0px;}
+}
+
+ul {
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    justify-content: space-between;
+    line-height: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    list-style: none;
+}
+
+.curioso {
+    position: fixed;
+    text-align: center;
+    align-items: center;
+    margin: 170px 0px 0px 300px;
+}
+
+.seta {
+    position: fixed;
+    color: black;
+    margin: 65px 0px 0px 230px;
+    font-size: 50px;
+}
+
+.seta2{
+    position: fixed;
+    color: black;
+    margin: 65px 0px 0px 240px;
+    font-size: 50px;
+}
+
+.seta3{
+    position: fixed;
+    color: black;
+    margin: 65px 0px 0px 250px;
+    font-size: 50px;
+}
